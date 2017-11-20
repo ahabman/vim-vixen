@@ -1,6 +1,6 @@
 import './site.scss';
 import { h, Component } from 'preact';
-import Input from 'shared/components/ui/input';
+import Input from './ui/input';
 import * as settingActions from 'settings/actions/setting';
 import * as validator from 'shared/validators/setting';
 
