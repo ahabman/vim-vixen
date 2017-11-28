@@ -1,10 +1,15 @@
 .vimvixen-hint {
-  background-color: yellow;
-  border: 1px solid gold;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  color: black;
+  font-size: 12px;
   font-weight: bold;
+  padding: 0px 3px;
   position: absolute;
   text-transform: uppercase;
   z-index: 2147483647;
-  font-size: 12px;
-  color: black;
+  
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 2px 0px rgba(50, 50, 50, 0.75);
 }

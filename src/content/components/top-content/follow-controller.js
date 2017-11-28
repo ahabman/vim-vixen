@@ -2,7 +2,8 @@ import * as followControllerActions from 'content/actions/follow-controller';
 import messages from 'shared/messages';
 import HintKeyProducer from 'content/hint-key-producer';
 
-const DEFAULT_HINT_CHARSET = 'abcdefghijklmnopqrstuvwxyz';
+// const DEFAULT_HINT_CHARSET = 'abcdefghijklmnopqrstuvwxyz';
+const DEFAULT_HINT_CHARSET = 'asdfjklwer';
 
 const broadcastMessage = (win, message) => {
   let json = JSON.stringify(message);
